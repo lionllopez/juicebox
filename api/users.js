@@ -7,6 +7,7 @@ const { getAllUsers } = require('../db');
 const { getUserByUsername } = require('../db');
 const { createUser } = require('../db');
 
+
 usersRouter.use((req, res, next) => {
   console.log("A request is being made to /users");
 
